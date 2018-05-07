@@ -1,0 +1,38 @@
+body {
+    background: #e9ecef;
+}
+
+h1 {
+    font-family: 'Francois One', sans-serif;
+    text-transform: uppercase;
+}
+p, small, input, label, button {
+    font-family: 'Gothic A1', sans-serif;
+}
+
+h6 {
+    font-family: 'Gothic A1', sans-serif;
+    /* text-align: center; */
+    margin-top: 15px;
+    font-style: italic;
+}
+
+img {
+    border-radius: 4px;
+    margin-right: 12px;
+    border: 1px solid #ced4da;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.box {
+    padding: 3%;
+}
+
+.box-gifs {
+    margin-left: 0.38%;
+}

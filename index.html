@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GifTastic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Francois+One|Gothic+A1:300" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <!-- first row: actors names -->
+    <div class="row box">
+        <!-- Imput area -->
+        <div class="col-md-5">
+            <!-- form -->
+            <form>
+                <label><h1>Which actor do you love secretly?</h1></label>
+                <input id="actor-imput" type="text" class="form-control" placeholder="Write his/her name here">
+                <small class="form-text text-muted"><em>Don't be worried, we'll never gonna share your secret obsession.</em></small>
+                <br>
+                <button id="add-actor-button" type="submit" class="btn btn-dark">Submit</button>
+            </form>
+        </div>
+        <!-- buttons area -->
+        <div class="col-md-7" id="buttons-area">
+
+        </div>
+    </div>
+    <!-- second row: gifs area -->
+    <div class="row box box-gifs" id="gifs-area"></div>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
