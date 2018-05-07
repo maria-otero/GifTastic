@@ -11,7 +11,7 @@ function displayMovieInfo() {
     var actor = $(this).data('actor');
     console.log(actor);
 
-    var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + actor + '&api_key=dc6zaTOxFJmzC&limit=10'
+    var queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + actor + '&api_key=Vb5wXz475DAaT5jANHcKXusV42CdWpjA&limit=10'
     console.log(queryURL);
 
     $.ajax({
