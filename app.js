@@ -78,6 +78,7 @@ $('#add-actor-button').on('click', function(event) {
     event.preventDefault();
     // This line grabs the input from the textbox
     var actorAdded = $("#actor-imput").val().trim();
+    $('#actor-imput').val('');
 
     // Adding actor from the textbox to our array
     actorsArray.push(actorAdded);
