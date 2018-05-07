@@ -2,7 +2,7 @@
 var actorsArray = ['Scarlett Johansson', 'James Franco', 'Leonardo Di Caprio'];
 
 
-
+// use ajax to grab gifs of actors
 function displayMovieInfo() {
     
     var actor = $(this).data('actor');
@@ -22,14 +22,13 @@ function displayMovieInfo() {
             var h6 = $('<h6>').text('Rating: ' + response.data[i].rating);
             var actorImg = $('<img>');
 
-            actorImg.attr('src', response.data[i].images.fixed_width.url);
+            actorImg.attr('src', response.data[i].images.fixed_height.url);
             actorImg.addClass('');
             actorDiv.append(actorImg);
             actorDiv.append(h6);
             $('#gifs-area').prepend(actorDiv);
         }
     });
-
 };
 
 // Creates buttoms
@@ -41,6 +40,7 @@ function renderButtons() {
         newButton.addClass('actor-button');
         newButton.addClass('btn');
         newButton.addClass('btn-outline-dark');
+        newButton.addClass('float-right');
         newButton.attr('data-actor', actorsArray[i]);
         newButton.text(actorsArray[i]);
 
