@@ -29,6 +29,11 @@ button {
     margin-bottom: 10px;
 }
 
+.btn:hover {
+    color: #fff;
+    background-color: #c90460 !important;
+    border-color: #357ebd; /*set the color you want here*/
+}
 
 .box {
     padding: 3% 4% 0% 4%;
