@@ -46,3 +46,10 @@ button {
 .float-right {
     float: right;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .float-right {
+        float: none !important;
+    }
+}
